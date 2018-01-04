@@ -1,4 +1,4 @@
-<h4>AWS ES(Elasticsearch Service)</h4>
+# AWS ES(Elasticsearch Service)
 AWS에서 Elasticsearch를 SaaS 형태로 제공하고 있음
 <strong>Price</strong>: Instance type 중에 작은 것(t2.small)도 고를 수 있고 비용은 Oregon 기준 $0.036/h (t2.small)  
 <strong>Characteristics:</strong>  
