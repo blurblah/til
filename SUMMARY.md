@@ -1,10 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-
-* AWS
-
-* Ansible
+* \[AWS\]\(aws.md\)
+  * \[AWS ES\]\(aws/elasticsearch.md\)
 
 
 
