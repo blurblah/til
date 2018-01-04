@@ -18,13 +18,14 @@ ES에 일반 문자열을 밀어넣었을 때 인식 못함 => JSON을 문자열
 AWS ES에 데이터 넣을 때 id가 generation 되는 값이 아니라 고정 문자열이면 같은 document로 인식하고 값을 update 하는 것으로 보임
 
 # AWS IoT
-IoT device를 위한 hub 역할  
-Azure IoT Hub와 유사(pub/sub)  
-<strong>Rule:</strong>  
+IoT device를 위한 hub 역할
+Azure IoT Hub와 유사(pub/sub)
+**Rule**:
 - 다른 service와 연동하기 위한 기능
 - AWS IoT로 publish되는 message들을 query 형태로 고를 수 있음(attribute, topic, condition)
 - 선택된 조건에 부합하는 message들을 S3, Kinesis, ES 등으로 전달 가능
-<h4>더 살펴볼 문서</h4>
+
+## 더 살펴볼 문서
 - [엘라스틱서치 이해하기][elasticsearch_slideshare]
 
 [elasticsearch_slideshare]: https://www.slideshare.net/dahlmoon/20160612
