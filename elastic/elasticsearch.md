@@ -7,5 +7,5 @@ Index 생성은 원래 ES의 API 호출로 가능
 ES에 일반 문자열을 밀어넣었을 때 인식 못함 => JSON을 문자열 변환 후 넣었을 때 인식
 AWS ES에 데이터 넣을 때 id가 generation 되는 값이 아니라 고정 문자열이면 같은 document로 인식하고 값을 update 하는 것으로 보임
 
-## 더 살펴볼 문서
+#### 더 살펴볼 문서
 - [엘라스틱서치 이해하기](https://www.slideshare.net/dahlmoon/20160612)
