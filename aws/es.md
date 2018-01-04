@@ -26,4 +26,4 @@ Azure IoT Hub와 유사(pub/sub)
 - 선택된 조건에 부합하는 message들을 S3, Kinesis, ES 등으로 전달 가능
 
 ## 더 살펴볼 문서
-- [엘라스틱서치 이해하기][https://www.slideshare.net/dahlmoon/20160612]
+- [엘라스틱서치 이해하기](https://www.slideshare.net/dahlmoon/20160612)
