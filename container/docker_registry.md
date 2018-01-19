@@ -55,5 +55,23 @@ Insecure registry 등록과 로그인은 동일
 read 권한이 있어야 함
 Image pull도 push 할 때 처럼 **registry_host:port**를 image 앞에 지정해줘야함
 
+### Docker registry web
+Docker registry 만으로는 쓰기가 불편함
+Portus를 살펴봤지만 현재 빌드가 불안정해서 제대로 구축이 안됨
+Docker registry web은 역시 container만 올리면 되는데 이 때 주요한 설정 정보는 아래와 같다.
+1. REGISTRY_URL
+Docker registry의 주소로 http://REGISTRY_HOST:PORT/v2로 지정
+2. REGISTRY_NAME
+REGISTRY_HOST:PORT 형식
+3. REGISTRY_READONLY
+false로 해야 삭제 등의 작업이 가능하다고 함
+4. REGISTRY_AUTH_ENABLED
+인증 사용할건지 여부
+5. REGISTRY_AUTH_ISSUER
+Docker registry의 issuer와 맞춰주어야 한다
+6. REGISTRY_AUTH_KEY
+Key 파일
+
+
 [docker_registry_configuration]: https://github.com/docker/distribution/blob/master/docs/configuration.md#debug
 [s3_health_check_issue]: https://github.com/docker/distribution/issues/2292
