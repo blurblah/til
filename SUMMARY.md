@@ -16,6 +16,8 @@
   * [Docker compose](container/docker_compose.md)
 * [Spring Boot](spring_boot/README.md)
   * [Dockerize Spring Boot applications](spring_boot/dockerize_spring_boot.md)
+* [Python](python/README.md)
+  * [Python distribution](python/python_distribution.md)
 * [Elastic](elastic/README.md)
   * [Elasticsearch](elastic/elasticsearch.md)
 * [IoT](iot/README.md)
